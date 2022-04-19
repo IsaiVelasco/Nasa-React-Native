@@ -25,6 +25,9 @@ const HomeScreen = () => {
                 }}
             > Home Screen
             </Text>
+            <Text >
+                Creating you future
+            </Text>
             <TouchableOpacity
                 onPress={() => navigation.navigate("StackScreen")}
                 style={{
@@ -43,7 +46,7 @@ const HomeScreen = () => {
                         color: "white",
                     }}
                 >
-                    Go to Stack screen
+                    Go to Stack
                 </Text>
             </TouchableOpacity>
         </View>
