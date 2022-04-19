@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity } from "react-native"
 import { useNavigation } from "@react-navigation/native"
 import { AppRegistry } from 'react-native';
 import * as rssParser from 'react-native-rss-parser';
-
+var rssv;
 var title = "No title";
 var items = "No items";
 const HomeScreen = () => {
@@ -13,13 +13,17 @@ const HomeScreen = () => {
             .then((response) => response.text())
             .then((responseData) => rssParser.parse(responseData))
             .then((rss) => {
+                rssv = rss;
                 console.log(rss.title);
 
                 console.log(rss.items.length);
+                rss.items.forEach(item => {
+                    console.log(item.title);
+                });
             });
     }
 
-    
+    getNews();
     
     return (
         <View>
