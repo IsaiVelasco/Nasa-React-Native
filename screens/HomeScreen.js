@@ -24,21 +24,7 @@ const HomeScreen = () => {
 
             });
     }, []);
-    /* 
-    const getNews = () => {
-        return fetch('http://www.nasa.gov/rss/dyn/breaking_news.rss')
-            .then((response) => response.text())
-            .then((responseData) => rssParser.parse(responseData))
-            .then((rss) => {
 
-
-                console.log(rss.items.length);
-                rss.items.forEach(item => {
-                    console.log(item.title);
-                });
-
-            });
-    }*/
     const navigation = useNavigation();
 
     return (
