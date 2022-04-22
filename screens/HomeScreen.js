@@ -65,15 +65,7 @@ const HomeScreen = () => {
                     Go to Stack
                 </Text>
             </TouchableOpacity>
-            {allowances.items.map(item => (
-                <Text key={item.id}
-                    style={{
-                        marginLeft:"10%",
-                        marginRight:"10%",
-                        marginBottom: "5%",
-                    }}
-                >-- {item.title}</Text>
-            ))}
+            
         </View>
     )
 }
