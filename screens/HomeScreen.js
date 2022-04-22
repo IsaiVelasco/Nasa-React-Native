@@ -72,7 +72,7 @@ const HomeScreen = () => {
                         marginRight:"10%",
                         marginBottom: "5%",
                     }}
-                >- {item.title}</Text>
+                >-- {item.title}</Text>
             ))}
         </View>
     )
