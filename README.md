@@ -14,13 +14,17 @@ npm install
 ```
 ```
 npm install -g expo-cli exp
+```
+```
 npm install -g yarn
+```
+```
 yarn install  
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm start
+yarn start
 ```
 
 ### Compiles and minifies for production
