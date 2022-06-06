@@ -14,3 +14,8 @@ npm install
 ```
 npm install -g expo-cli exp
 ```
+```
+npm start
+```
+
+
