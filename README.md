@@ -1,5 +1,7 @@
-# Nasa-React-Native
-Prueba de UI y consumo de RSS
+# RSS con React Native
+
+## Prueba de UI y consumo de RSS
+
 ```
 Instalar Node
 ```
