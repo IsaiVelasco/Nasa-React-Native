@@ -36,7 +36,7 @@ yarn start
 
 ### Compiles and minifies for production
 ```
-pending...
+Consulte la documentación para la publicación de la app segun sea el caso (iOS o Android)
 ```
 
 
