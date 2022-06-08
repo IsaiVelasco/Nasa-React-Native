@@ -2,6 +2,8 @@
 
 ## Prueba de UI y consumo de RSS
 
+En lugar de consumir una API, se consumen archivos RSS de blogs del sitio oficial de la NASA. Los archivos RSS son parecidos a los XML. Con una librería se prosesan las cadenas del archivo y se extraen los datos de las etiquetas para organizarlos a conveniencia en la aplicación móvil.
+
 <img src="https://user-images.githubusercontent.com/49338963/172099643-3cd33960-4a82-4b3e-9df3-08b9899ff3d3.jpeg" width=300px;/> 
 
 ## Muestra de datos por consola.
