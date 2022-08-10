@@ -1,6 +1,6 @@
-# RSS con React Native
+# RSS using React Native
 
-## Prueba de UI y consumo de RSS
+## UI testing and RSS consumption
 
 Instead of consuming an API, blog RSS feeds from the official NASA site are consumed. RSS files are similar to XML files. With a library, the strings of the file are processed and the data of the tags are extracted to organize them in the mobile application views.
 
